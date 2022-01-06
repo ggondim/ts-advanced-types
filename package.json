@@ -1,0 +1,24 @@
+{
+  "name": "ts-advanced-types",
+  "version": "1.0.0",
+  "description": "Advanced types for TypeScript, including XOR, Without, and many more.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggondim/ts-advanced-types.git"
+  },
+  "keywords": ["typescript", "types", "typings", "typescript-xor"],
+  "author": {
+    "email": "gustavospgondim@gmail.com",
+    "name": "Gustavo Gondim",
+    "url": "https://github.com/ggondim"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ggondim/ts-advanced-types/issues"
+  },
+  "homepage": "https://github.com/ggondim/ts-advanced-types#readme"
+}

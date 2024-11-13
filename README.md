@@ -1,6 +1,6 @@
 # TypeScript Advanced Types
 
-Advanced types for TypeScript, including XOR, Without, and many more.
+Advanced types and utility functions for TypeScript.
 
 ## Usage
 

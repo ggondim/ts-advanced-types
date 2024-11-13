@@ -1,6 +1,6 @@
 {
   "name": "ts-advanced-types",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Advanced types and utility functions for TypeScript.",
   "main": "index.ts",
   "scripts": {},

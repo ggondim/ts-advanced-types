@@ -1,10 +1,9 @@
 {
   "name": "ts-advanced-types",
   "version": "1.0.0",
-  "description": "Advanced types for TypeScript, including XOR, Without, and many more.",
+  "description": "Advanced types and utility functions for TypeScript.",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",

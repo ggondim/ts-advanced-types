@@ -42,7 +42,7 @@ export type FalsyOrLiteral = Falsy | Primitive;
 export type Document<T = Complex> = Record<string, Complex | T>;
 
 /**
- * A JSON, as a string or as a parsed object
+ * A JSON, as a string or as a parsed object or array
  */
 export type JsonOrString = Document | Document[] | string;
 

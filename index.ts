@@ -109,7 +109,11 @@ export function withoutProps
  * Checks if two objects are equal using the `equals` method or strict equality
  */
 export function equals(a: any, b: any): boolean {
-  return (a === b) || (typeof a.equals === 'function' && a.equals(b));
+  if (a && 'equals' in a && typeof a["equals"] === 'function') {
+    const x = a as unknown as { equals: (b: any) => boolean };
+    return x.equals(b);
+  }
+  return a === b;
 }
 
 /**
